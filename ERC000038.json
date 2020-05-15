@@ -1,0 +1,1 @@
+{"id": "ERC000038", "dataTypeId": "samples", "displayName": "ENA Shellfish Checklist", "description": "Shellfish contextual information associated with molecular data. The checklist has been developed in collaboration with EMBRIC Project partners.", "validationSchema": "https://submission.ebi.ac.uk/api/validationSchemas/ERC000038"}

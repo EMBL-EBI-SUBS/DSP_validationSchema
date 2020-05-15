@@ -1,0 +1,1 @@
+{"id": "ERC000051", "dataTypeId": "samples", "displayName": "PDX Checklist", "description": "Minimum information required for reporting samples associated with patient-derived xenograft (PDX) models or patient samples", "validationSchema": "https://submission.ebi.ac.uk/api/validationSchemas/ERC000051"}

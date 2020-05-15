@@ -1,0 +1,1 @@
+{"id": "ERC000045", "dataTypeId": "samples", "displayName": "COMPARE-ECDC-EFSA pilot food-associated reporting standard", "description": "A checklist for reporting metadata of food-borne pathogen samples for the COMPARE-ECDC-EFSA reporting system.", "validationSchema": "https://submission.ebi.ac.uk/api/validationSchemas/ERC000045"}

@@ -1,0 +1,1 @@
+{"id": "ERC000044", "dataTypeId": "samples", "displayName": "COMPARE-ECDC-EFSA pilot human-associated reporting standard", "description": "A checklist for reporting metadata of human-associated pathogen samples for the COMPARE-ECDC-EFSA reporting system.", "validationSchema": "https://submission.ebi.ac.uk/api/validationSchemas/ERC000044"}

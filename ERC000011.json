@@ -1,0 +1,1 @@
+{"id": "ERC000011", "dataTypeId": "samples", "displayName": "ENA default sample checklist", "description": "Minimum information required for the sample", "validationSchema": "https://submission.ebi.ac.uk/api/validationSchemas/ERC000011"}

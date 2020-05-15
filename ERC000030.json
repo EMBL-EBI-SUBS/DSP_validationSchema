@@ -1,0 +1,1 @@
+{"id": "ERC000030", "dataTypeId": "samples", "displayName": "ENA Tara Oceans", "description": "Minimum information about a Tara Oceans sample. A checklist for reporting metadata of oceanic plankton samples associated with genomics data from the Tara Oceans Expedition.", "validationSchema": "https://submission.ebi.ac.uk/api/validationSchemas/ERC000030"}

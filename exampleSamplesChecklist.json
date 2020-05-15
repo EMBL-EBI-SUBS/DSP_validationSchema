@@ -1,0 +1,1 @@
+{"id": "exampleSamplesChecklist", "dataTypeId": "samples", "displayName": "Sample Checklist", "description": "data requirement for samples", "validationSchema": "https://submission.ebi.ac.uk/api/validationSchemas/exampleSamplesChecklist"}
