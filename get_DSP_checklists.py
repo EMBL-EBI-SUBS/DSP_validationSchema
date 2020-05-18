@@ -39,6 +39,41 @@ df = pd.DataFrame(all_summary)
 df.columns = ["ID","name","dataType","description","updateTime"]
 df.to_csv(summaryFile,sep = "\t")
 
+# Get checklists  from DSP endpoint
+schemas = requests.get("https://submission.ebi.ac.uk/api/checklists?size=100").json()
+
+numberOfChecks = len(schemas['_embedded']['checklists'])
+
+updateTime = date.today().strftime("%Y%m%d")
+summaryFile = 'checklists_summary.tsv'
+
+
+all_summary = []
+for i in range(numberOfChecks):
+    content = schemas['_embedded']['checklists'][i]
+
+    ID = schemas['_embedded']['checklists'][i]['id']
+    dataType = schemas['_embedded']['checklists'][i]['dataTypeId']
+    name = schemas['_embedded']['checklists'][i]['displayName']
+
+    if 'description' in schemas['_embedded']['checklists'][i].keys():
+        description = schemas['_embedded']['checklists'][i]['description']
+        # remove \t in the description
+        description = description.replace("\t"," ")
+    else:
+        description = 'N/A'
+
+    # generate seperate file for each validation schema
+    with open(ID+'.json','w+') as g:
+        json.dump(content,g)
+
+    summary = [ID,name,dataType,description,updateTime]
+    all_summary.append(summary)
+
+df = pd.DataFrame(all_summary)
+df.columns = ["ID","name","dataType","description","updateTime"]
+df.to_csv(summaryFile,sep = "\t")
+
         
 
 
