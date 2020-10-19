@@ -1,3 +1,5 @@
+:exclamation: __This repository has been deprecated.__
+
 This is a collection of [meta]data standards used in the EBI Data submission portal. 
 
 _Updated on 18/05/2020_
